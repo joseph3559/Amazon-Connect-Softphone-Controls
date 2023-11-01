@@ -10,9 +10,6 @@ export default function (ccpContainerId) {
     // const ccpUrl = "https://<UseYourInstanceName>.my.connect.aws/connect/ccp-v2";
     // const connectRegion = "<UseYourRegion>";
 
-    const ccpUrl = "https://test-environment.my.connect.aws/connect/ccp-v2";
-    const connectRegion = "us-east-1";
-
     //----------------Init CCP Start----------------------------
     try {
         connect.core.initCCP(
